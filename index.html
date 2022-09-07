@@ -18,12 +18,12 @@
             crossorigin="anonymous"></script>
         <title>Bootstrap</title>
     </head>
-    <body class="bg-secondary text-white" data-bs-spy="scroll"
+    <body class="bg" data-bs-spy="scroll"
         data-bs-target=".navbar" data-bs-offset="50">
         <header>
             <nav class="navbar navbar-expand-lg fixed-top">
                 <div class="container-fluid">
-                    <a class="navbar-brand ml-10px" href="#">John Doe</a>
+                    <a class="navbar-brand ml-10px text-white" href="#">John Doe</a>
                     <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false"
@@ -32,16 +32,16 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-end"
                         id="navbarNav">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav ">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page"
+                                <a class="nav-link active text-white" aria-current="page"
                                     href="#portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#about">About</a>
+                                <a class="nav-link active text-white" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#contact">Contact</a>
+                                <a class="nav-link active text-white" href="#contact">Contact</a>
                             </li>
                             <li class="nav-item">
                                 <img src="./images/mail-box.png" alt="mail-box
@@ -54,8 +54,8 @@
         </header>
         <section class="section1">
             <div class="header">
-                <h1>Laura Jong</h1>
-                <h2>Software Developer</h2>
+                <h1 class="display-1 .text-info">Laura Jong</h1>
+                <h2 class="text-white">Software Developer</h2>
             </div>
             <div class="paragraph">
                 <p>I can help you build a product , feature or website Look
@@ -72,7 +72,7 @@
                         <th><a href="#">Skills</a></th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody class="text-white">
                     <tr>
                         <td>JavaScript</td>
                         <td>Bootstrap</td>
@@ -184,6 +184,52 @@
                 </div>
             </div>
         </section> 
+
+        <footer>
+            <div class="top-footer">
+                <h1 class="display-2 .text-info">Let's chat!</h1>
+                <p class="text-center">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                <form action="/action_page.php">
+                    <div class="input-field span-1">
+                      <input type="text" class="form-control size" id="name" placeholder="Fullname" name="name">
+                    </div>
+                    <div class="input-field span-2">
+                        <input type="email" class="form-control" id="email" placeholder="Email address" name="email">
+                    </div>
+                    <div class="input-field">
+                        <textarea class="form-control text-area" rows="5" id="comment" name="text" placeholder="Write your message here"></textarea>
+                      </div>
+                      <div>
+                        <button type="submit" class="btn btn-primary .text-info">Send</button>
+                      </div>
+                    
+                  </form>
+            </div>
+    
+            <div class="bottom-footer">
+                <ul class="last" style="list-style: none;">
+                    <li>
+                        <a> <img src="./images/footer-img/github.png" alt="Github logo"></a>
+                    </li>
+                    <li>
+                        <a> <img src="./images/footer-img/Frame.png" alt="linkedin-logo"></a>
+                    </li>
+                    <li>
+                        <a> <img src="./images/footer-img/goodluck.png" alt="Goodluck-logo"></a>
+                    </li>
+                    <li>
+                        <a> <img src="./images/footer-img/twitter.png" alt="twittter-logo"></a>
+                    </li>
+                    <li>
+                        <a> <img src="./images/footer-img/mail.png" alt="mail-logo"></a>
+                    </li>
+                    <li>
+                        <a class="email .text-info" href="#">emailhere@email.com</a>
+                    </li>
+                </ul>
+            </div>
+    
+        </footer>
 
     </body>
 </html>
