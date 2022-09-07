@@ -3,9 +3,18 @@
     padding: 0;
 }
 
+.bg {
+    background-color: #191765;
+}
 .navbar-nav nav {
     color: #fff;
 }
+.text-info {
+    color: #fff;
+}
+ .display-1 {
+    color: #9390FF;
+ }
 
 .section1{
     text-align: center;
@@ -166,4 +175,80 @@ table, tbody, tr {
     width: 684px;
     height: 448px;
     flex-wrap: wrap;
+}
+
+footer {
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.display-2 {
+width: 684px;
+height: 56px;
+text-align: center;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 24px;
+color: #9390FF;
+}
+
+.text-center {
+    width: 684px;
+height: 61px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+text-align: center;
+
+/* Primary/B50 */
+
+color: #EBEBFF;
+}  
+
+.form-control {
+height: 18px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+color: #6D6C70;
+}
+
+.input-field{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+  padding-top: 10px;
+}
+
+.text-area {
+    height: 126px;
+}
+
+.btn {
+width: 100px;
+height: 38px;
+border: #9390FF;
+background: #9390FF;
+color: #fff;
+margin-left: 40%;
+margin-top: 8%;
+margin-bottom: 5%;
+}
+
+.email {
+    color: #fff;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 0;
 }
